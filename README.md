@@ -114,7 +114,7 @@ Replace the backbone of RetinaNet in "01_PyTorch_RetinaNet/" with ResNet50-ADN (
    |               | $\beta=0.9$ |                |                |                |
 
    Train <u>the exp1_alpha05_nobeta model using the PyTorch schedule</u>, which exhibited good performance in the mmdetection schedule : 
-([you can check this result in here](https://github.com/LeeHyungSeop/INU_RISE/blob/main/03_1_RetinaNet_with_ResNet50-ADN_backbone/logs/exp1_goodF_alpha05_noBeta_model_23_test.txt))
+([you can check this result in here](https://github.com/LeeHyungSeop/RetinaNet-ADN/blob/main/03_1_RetinaNet_with_ResNet50-ADN_backbone/logs/exp1_goodF_alpha05_noBeta_model_23_test.txt))
    |         PyTorch schedule</br>(26 epoch, lr-steps 16, 22)      |             | exp1           | exp2           | exp3 |  
    |---            |---          | ----           | ---            | ---- |
    | $\alpha=0.9$  | $\beta$ -   |                |                |  | 
@@ -127,20 +127,13 @@ Replace the backbone of RetinaNet in "01_PyTorch_RetinaNet/" with ResNet50-ADN (
    * super : 151.54 GFLOPs
    </br>![no msg](./images/super_GLOPs.png)
    * base : 132.043 GFOPs
-   </br>![no msg](./images/super_GLOPs.png)
+   </br>![no msg](./images/base_GFLOPs.png)
 
-* RetinaNet-ADN Final Result :    
-   ![no msg](./images/final_result.png)
+* RetinaNet-ADN Final Result :
+   </br>![no msg](./images/final_result.png)
 
 </br>
 
 ### `03_2_base-model-baseline/`
 
 * This directory is for training the base model, which is the ResNet50-ADN model that skips the residual blocks of ResNet50.
-
-</br>
-
-### `06_RT-DETR-ADN`
-
-1. Replace the backbone of RT-DETR in "01_PyTorch_RetinaNet/" with ResNet50-ADN (base-net) from "02_AdaptiveDepthNetwork/".
-2. skippable decoder layer
