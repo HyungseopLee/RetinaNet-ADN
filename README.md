@@ -123,10 +123,15 @@ Replace the backbone of RetinaNet in "01_PyTorch_RetinaNet/" with ResNet50-ADN (
    |               | $\beta=0.9$ |                |                |                |
    | $\alpha=0.5$  | $\beta$ -   | **<span style="color:red">(0.374, 0.352)</span>** |             |  | 
    |               | $\beta=0.9$ |                |                |                |
-* GFLOPs (calculated by https://github.com/Lyken17/pytorch-OpCounter?tab=readme-ov-file)
-</br>super : 151.54 GFLOPs
+   
+
+* GLOPs super : 151.54 GFLOPs (calculated by https://github.com/Lyken17/pytorch-OpCounter?tab=readme-ov-file)
+
 ![no msg](./images/super_GLOPs.png)
-</br>base : 132.043 GFOPs
+
+
+* GLOPs super : 132.043 GFOPs (calculated by https://github.com/Lyken17/pytorch-OpCounter?tab=readme-ov-file)
+
 ![no msg](./images/base_GFLOPs.png)
 
 * RetinaNet-ADN Final Result : 
