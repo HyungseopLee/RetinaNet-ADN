@@ -1,0 +1,13 @@
+checkpoint/
+pretrained/
+pretrained*/
+
+exp/
+figures/
+__pycache__/
+*.swp
+*.pdf
+AdaptiveDepthNetwork/
+*.pth
+# 02_AdaptiveDepthNetwork/*
+PaddleClas/
