@@ -62,7 +62,7 @@ Replace the backbone of RetinaNet in "01_PyTorch_RetinaNet/" with ResNet50-ADN (
 </br>The baseline is initialized by initializing the backbone network with the ResNet50_Weights.IMAGENET1K_V1 weights provided by PyTorch. 
 </br>The super model refers to the PyTorch Reference RetinaNet model, and the base model refers to a model that skips the residual blocks of ResNet50.
 ![no msg](./images/ADN.png)
-</br>(I referenced Figure 1. from [Kang, Woochul. 'Adaptive Depth Networks with Skippable Sub-Paths.](https://arxiv.org/abs/2312.16392))
+
 
 * <span style="color:red">**baseline**</span>
    - <span style="color:red">**PyTorch Schedule**</span> 
@@ -137,9 +137,3 @@ Replace the backbone of RetinaNet in "01_PyTorch_RetinaNet/" with ResNet50-ADN (
 * RetinaNet-ADN Final Result : 
 
 ![no msg](./images/final_result.png)
-
-</br>
-
-### `03_2_base-model-baseline/`
-
-* This directory is for training the base model, which is the ResNet50-ADN model that skips the residual blocks of ResNet50.
