@@ -66,11 +66,11 @@ Replace the backbone of RetinaNet in "01_PyTorch_RetinaNet/" with ResNet50-ADN (
 
 * <span style="color:red">**baseline**</span>
    - <span style="color:red">**PyTorch Schedule**</span> 
-      * super : [0.364](https://github.com/LeeHyungSeop/INU_RISE/blob/main/01_PyTorch_RetinaNet/logs/pytorch_recipe_model_25.txt)
-      * base : [0.317](https://github.com/LeeHyungSeop/INU_RISE/blob/main/03_2_base-model-baseline/logs/base_model_pytorch_baseline_torchWeight.txt) (you can check the result in 03_2_base-model-baseline/)
+      * super : 0.364
+      * base : [0.317](https://github.com/LeeHyungSeop/RetinaNet-ADN/blob/main/03_2_base-model-baseline/logs/base_model_pytorch_baseline_torchWeight.txt)
    - <span style="color:red">**mmdetection Schedule**</span> 
-      * suepr : [0.357](https://github.com/LeeHyungSeop/INU_RISE/blob/main/03_1_RetinaNet_with_ResNet50-ADN_backbone/logs/super_model_mmdetection_baseline_torchWeight_test.txt)
-      * base : [0.304](https://github.com/LeeHyungSeop/INU_RISE/blob/main/03_2_base-model-baseline/logs/base_model_mmdetection_baseline_torchWeight.txt)(you can check the result in 03_2_base-model-baseline/)
+      * suepr : 0.357
+      * base : [0.304](https://github.com/LeeHyungSeop/RetinaNet-ADN/blob/main/03_2_base-model-baseline/logs/base_model_mmdetection_baseline_torchWeight.txt)
       
       </br>
 
