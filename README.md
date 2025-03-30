@@ -1,8 +1,5 @@
-# INU_RISE
+This is the official implementation of the paper "[Adaptive Depth Networks with Skippable Sub-Paths (NeurIPS 2024)](https://proceedings.neurips.cc/paper_files/paper/2024/file/3a2d96d2eb2902043c2db705ca03e9a2-Paper-Conference.pdf)" for the RetinaNet ADN experiment.
 
-* This repository is dedicated to researching and developing efficient techniques for the object detection task.
-
-</br>
 
 # Requirements
 
@@ -28,7 +25,8 @@
 ### `01_PyTorch_RetinaNet/` 
 I will use RetinaNet for base detector, which has good accessibility for research and development.
 </br>([PyTorch provides the reference model RetinaNet for research purposes](https://github.com/pytorch/vision/blob/main/torchvision/models/detection/retinanet.py), making code management easy and convenient.)
-</br></br>* **[The PyTorch reference model mAP](https://pytorch.org/vision/main/models/generated/torchvision.models.detection.retinanet_resnet50_fpn.html#torchvision.models.detection.retinanet_resnet50_fpn) : 0.364**![](./images/PyTorch_RetinaNet_ResNet50_FPN_Weightsimage.png)
+</br>
+* **[The PyTorch reference model mAP](https://pytorch.org/vision/main/models/generated/torchvision.models.detection.retinanet_resnet50_fpn.html#torchvision.models.detection.retinanet_resnet50_fpn) : 0.364 (MS COCO)**![](./images/PyTorch_RetinaNet_ResNet50_FPN_Weightsimage.png) 
 ``` python
 # reference recipe
 torchrun --nproc_per_node=8 train.py\
